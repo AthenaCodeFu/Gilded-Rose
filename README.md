@@ -5,6 +5,7 @@ Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime
 * All items have a SellIn value which denotes the number of days we have to sell the item
 * All items have a Quality value which denotes how valuable the item is
 * At the end of each day our system lowers both values for every item
+
 Pretty simple, right? Well this is where it gets interesting:
 * Once the sellby date has passed, Quality degrades twice as fast
 * The Quality of an item is never negative
