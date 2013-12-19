@@ -10,6 +10,11 @@ class GildedRose {
         // Iterate over the inventory
         for (int i = 0; i < items.length; i++) {
 
+			// if we have an item-specific updater function for this item, apply it and go to the next item
+			if (false) {
+				// update the item
+				continue;
+			}
 
             if (!items[i].name.equals("Aged Brie")
                     && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
